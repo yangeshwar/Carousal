@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-img img {
+    width: 150px;
+}
+
+.all-product {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.prd-1::after {
+    content: "+";
+    font-size: 40px;
+    margin: 0;
+    left: 294px;
+    color: #c2c2c2;
+    position: absolute;
+    top: 258px;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    display: inline-block;
+    z-index: 1;
+}
+
+.prd-1,
+.prd-2,
+.product {
+    padding: 20px 20px 0;
+}
+
+.prd-1,
+.prd-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.title {
+    padding: 50px 0 0 50px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.product-total {
+    display: flex;
+    flex-direction: column;
+    margin-right: 68px;
+}
+
+.prd-add::after {
+    content: "+";
+    position: absolute;
+    top: 442px;
+    left: 128px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #878787;
+    font-size: 22px;
+}
+
+.prd-equal::before {
+    content: "=";
+    position: absolute;
+    top: 442px;
+    left: 272px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #878787;
+    font-size: 22px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 50px;
+    border-top: 1px solid #f0f0f0;
+    width: 526px;
+}
+
+.all-prd-total {
+    display: flex;
+}
+
+.prd-equal {
+    padding: 0 25px;
+    margin-right: 20px;
+}
+
+.total-head {
+    font-size: 14px;
+    color: #878787;
+}
+
+.prd-price {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.prd-name {
+    font-size: 14px;
+    width: 180px;
+}
+
+.buy-btn {
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 4px;
+    transition: box-shadow .2s ease;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
