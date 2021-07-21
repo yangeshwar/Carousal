@@ -13,20 +13,6 @@ body {
     justify-content: space-between;
 }
 
-.prd-1::after {
-    content: "+";
-    font-size: 40px;
-    margin: 0;
-    left: 294px;
-    color: #c2c2c2;
-    position: absolute;
-    top: 258px;
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    display: inline-block;
-    z-index: 1;
-}
-
 .prd-1,
 .prd-2,
 .product {
